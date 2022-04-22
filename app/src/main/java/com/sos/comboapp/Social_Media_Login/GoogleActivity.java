@@ -1,4 +1,4 @@
-package com.sos.comboapp.GoogleLogin;
+package com.sos.comboapp.Social_Media_Login;
 
 import androidx.appcompat.app.AppCompatActivity;
 

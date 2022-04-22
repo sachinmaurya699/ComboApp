@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComboApp">
         <activity
+            android:name=".Social_Media_Login.FaceBook_Login_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.Base_Activity"
             android:exported="false" />
         <activity
@@ -24,18 +27,14 @@
             android:name=".Firbase.SignUp_Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".Activity.User_Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".Activity.Chat_Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
-
         <activity
             android:name=".Firbase.SignInActivity"
             android:exported="true"

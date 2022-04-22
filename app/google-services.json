@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683676071068",
+    "project_id": "comboapp-8b9df",
+    "storage_bucket": "comboapp-8b9df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683676071068:android:7d97af1d9db77c028ae959",
+        "android_client_info": {
+          "package_name": "com.sos.comboapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683676071068-b4lmg5qlf5h887jjq9dgp9df51et9hv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbWI-d4T5CeD1BCclfa85-rXQ-fjeAZBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683676071068-b4lmg5qlf5h887jjq9dgp9df51et9hv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

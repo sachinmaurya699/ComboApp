@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ComboApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/backgound_caht_input.xml" value="1.134375" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/background_content_top.xml" value="0.21979166666666666" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/item_container_send_message.xml" value="0.21979166666666666" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/round_back_white.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/round_background_light.xml" value="1.3678571428571429" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/round_btn.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/ItemContainerUserlayout.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_chat.xml" value="0.18" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_chate.xml" value="0.20364583333333333" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_facebook.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_first.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_home2.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_my_main.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_user.xml" value="0.20364583333333333" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/container_layout.xml" value="0.20364583333333333" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/item_container_send_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/item_container_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/message_adapter_layout.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/text_container_recivering_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/ComboApp/app/src/main/res/menu/main_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -13,8 +13,9 @@ public class Constant
     public  static final String Key_FCM_TOKEN="fcmToken";
     public  static final String Key_USER="user";
     public  static final String Key_COLLECTION_chat="chat";
-    public  static final String Key_RECEIVER_ID="receiverId";
     public  static final String Key_SENDER_ID="senderId";
+    public  static final String Key_RECEIVER_ID="receiverId";
+
     public static final String key_MESSAGE="message";
     public  static final String Key_TIMESTAMP="timestamp";
 

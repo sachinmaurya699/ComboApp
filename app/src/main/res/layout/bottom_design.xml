@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_350sdp"
+    android:id="@+id/my_bottom_sheet"
+    tools:context=".Activity.Bottom_Sheet_Activity">
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordar Details"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="5dp"
+        android:textSize="21sp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/pizza"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:scaleType="center"
+        android:id="@+id/my_img"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/family"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:id="@+id/pizza"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/my_img"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/my_img"
+        app:layout_constraintTop_toTopOf="@+id/my_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        android:layout_marginTop="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="130dp"
+        app:layout_constraintTop_toBottomOf="@+id/pizza" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$12"
+        android:id="@+id/my_first_price"
+        android:textSize="21sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--...............second image.................-->
+
+
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/burgar"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:scaleType="center"
+        android:id="@+id/my_burgar"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_img"
+        />
+
+    <TextView
+        android:id="@+id/barger_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:text="Bargar"
+        app:layout_constraintBottom_toBottomOf="@+id/my_burgar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/my_burgar"
+        app:layout_constraintTop_toBottomOf="@+id/my_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        android:id="@+id/bargar_quaintety"
+        android:layout_marginTop="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="130dp"
+        app:layout_constraintTop_toBottomOf="@+id/barger_1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$15"
+        android:textSize="21sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_first_price"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:id="@+id/my_total"
+        android:layout_marginStart="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10ssp"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintTop_toBottomOf="@+id/my_burgar"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(with packaging charges)"
+        android:id="@+id/my_total_statement"
+        android:layout_marginStart="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textStyle="normal"
+        android:layout_marginTop="@dimen/_10ssp"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintTop_toBottomOf="@+id/my_total"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20$"
+        android:id="@+id/my_total_price"
+        android:layout_marginStart="15dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10ssp"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintTop_toBottomOf="@+id/my_total"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="@dimen/_10ssp"
+        android:padding="@dimen/_12ssp"
+        android:text="Product Next"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/next_product1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg"
+        android:textSize="16sp"
+        android:layout_marginEnd="@dimen/_10ssp"
+         app:layout_constraintTop_toBottomOf="@+id/my_total_statement"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

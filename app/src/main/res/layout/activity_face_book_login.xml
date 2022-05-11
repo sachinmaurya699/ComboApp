@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Social_Media_Login.FaceBook_Login_Activity">
+    tools:context=".Media.Facebook_Activity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

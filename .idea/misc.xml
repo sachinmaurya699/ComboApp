@@ -6,28 +6,68 @@
         <entry key="..\:/ComboApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21614583333333334" />
         <entry key="..\:/ComboApp/app/src/main/res/drawable/backgound_caht_input.xml" value="1.134375" />
         <entry key="..\:/ComboApp/app/src/main/res/drawable/background_content_top.xml" value="0.21979166666666666" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/bg_design.xml" value="0.2203125" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/bg_receiver.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/bgdesignlogin.xml" value="0.2203125" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/button_bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_account.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_add.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_arrow.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_chat.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_history.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_home.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_info.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/ic_person.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/item_background.xml" value="0.361328125" />
         <entry key="..\:/ComboApp/app/src/main/res/drawable/item_container_send_message.xml" value="0.21979166666666666" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/repile_effect.xml" value="0.21614583333333334" />
         <entry key="..\:/ComboApp/app/src/main/res/drawable/round_back_white.xml" value="0.21614583333333334" />
         <entry key="..\:/ComboApp/app/src/main/res/drawable/round_background_light.xml" value="1.3678571428571429" />
         <entry key="..\:/ComboApp/app/src/main/res/drawable/round_btn.xml" value="0.21614583333333334" />
+        <entry key="..\:/ComboApp/app/src/main/res/drawable/wave.xml" value="0.2203125" />
+        <entry key="..\:/ComboApp/app/src/main/res/font/fount.xml" value="0.23020833333333332" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/ItemContainerUserlayout.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_animation.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_base.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_bottom_sheet.xml" value="0.25" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_chat.xml" value="0.18" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_chat2.xml" value="0.13179347826086957" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_chate.xml" value="0.20364583333333333" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_constraint_layout.xml" value="0.1859375" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_example.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_face_book_login.xml" value="0.2" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_facebook.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_facebook2.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_facebook_home.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_fb.xml" value="0.1859375" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_first.xml" value="0.2" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_home2.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_home_tab.xml" value="0.1" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_layout.xml" value="0.25" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_menu.xml" value="0.2" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_my_main.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_otp.xml" value="0.2" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_sign_up2.xml" value="0.18" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/activity_texcher_view.xml" value="0.16757246376811594" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/activity_user.xml" value="0.20364583333333333" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/bottom_design.xml" value="0.15579710144927536" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/chatebottomdesign.xml" value="0.13179347826086957" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/chatsectionleft.xml" value="0.13179347826086957" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/chatsectionright.xml" value="0.15307971014492755" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/container_layout.xml" value="0.20364583333333333" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/item_container_send_message.xml" value="0.20416666666666666" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/item_container_user.xml" value="0.20416666666666666" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/message_adapter_layout.xml" value="0.2" />
+        <entry key="..\:/ComboApp/app/src/main/res/layout/rowchatelist.xml" value="0.16802536231884058" />
         <entry key="..\:/ComboApp/app/src/main/res/layout/text_container_recivering_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/ComboApp/app/src/main/res/menu/bottom_menu.xml" value="0.2" />
         <entry key="..\:/ComboApp/app/src/main/res/menu/main_menu.xml" value="0.2" />
       </map>
     </option>

@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.sos.comboapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
+        android:name=".Calss.My_Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ComboApp">
+        android:theme="@style/Theme.ComboApp"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".Social_Media_Login.FaceBook_Login_Activity"
+            android:name=".Activity.SignUpActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LayoutActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Activity.Menu_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Home_Tab_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Texcher_view_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Bottom_Sheet_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Otp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Constraint_layout_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Animation_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Media.Facebook_Home_Activity"
             android:exported="false" />
         <activity
             android:name=".Activity.Base_Activity"
@@ -36,15 +85,17 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
+            android:name=".Media.GoogleActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Media.Facebook_Activity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
             android:name=".Firbase.SignInActivity"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Register_Activity"
             android:exported="false" />
@@ -52,14 +103,44 @@
             android:name=".First_Activity"
             android:exported="false" />
         <activity
-            android:name=".GoogleLogin.FacebookActivity"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true" />
 
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token"
+            tools:replace="android:value" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <!--
+<activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+
+        </activity>
+        -->
         <service
             android:name=".Firbase.MessingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Calss.NotificationService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

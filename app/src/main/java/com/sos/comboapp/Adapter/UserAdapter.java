@@ -65,7 +65,8 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
             binding.myUnssenSms.setText(user.email);
 
             //binding.profilePic.setImageBitmap(getUserImage(user.image));
-            binding.getRoot().setOnClickListener(view -> {
+            binding.getRoot().setOnClickListener(view ->
+            {
                 userlistener.onUserClicked(user);
             });
         }

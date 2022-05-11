@@ -13,7 +13,6 @@ import com.sos.comboapp.Utilites.PreferenceManager;
 
 public class Base_Activity extends AppCompatActivity
 {
-
     private DocumentReference documentReference;
 
     @Override
@@ -26,6 +25,7 @@ public class Base_Activity extends AppCompatActivity
         FirebaseFirestore database= FirebaseFirestore.getInstance();
         documentReference= database.collection(Constant.Key_collection_users)
                 .document(preferenceManager.getString(Constant.Key_USER_ID));
+
     }
     @Override
     protected void onPause()

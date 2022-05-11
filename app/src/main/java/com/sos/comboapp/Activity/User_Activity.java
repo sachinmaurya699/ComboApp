@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,6 +14,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.sos.comboapp.Adapter.UserAdapter;
 import com.sos.comboapp.Calss.Constant;
+import com.sos.comboapp.Lisener.Userlistener;
 import com.sos.comboapp.Model.User;
 import com.sos.comboapp.R;
 import com.sos.comboapp.Utilites.PreferenceManager;
@@ -21,7 +23,7 @@ import com.sos.comboapp.databinding.ActivityUserBinding;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User_Activity extends AppCompatActivity
+public class User_Activity extends AppCompatActivity implements Userlistener
 {
 
     private ActivityUserBinding binding;
@@ -87,19 +89,29 @@ public class User_Activity extends AppCompatActivity
                         }
                         if(users.size() > 0)
                         {
-                            Log.d("all_data_size",String.valueOf(users.size()));
-                            user_adapter= new UserAdapter(this,users,user -> {
+                           /* UserAdapter userAdapter = new UserAdapter(users,this);*/
+                           /// binding.userRecyclerview.setAdapter(userAdapter);
+                            binding.userRecyclerview.setVisibility(View.VISIBLE);
+
+                           // Log.d("all_data_size",String.valueOf(users.size()));
+                           /* user_adapter= new UserAdapter(this,users,user -> {
 
                                 Intent intent= new Intent(getApplicationContext(),Chat_Activity.class);
                                 intent.putExtra(Constant.Key_USER_ID,user);
                                 startActivity(intent);
                                 finish();
 
-
-
-                            });
-                            binding.userRecyclerview.setAdapter(user_adapter);
-                            binding.userRecyclerview.setVisibility(View.VISIBLE);
+                            });*/
+                           /* UserAdapter userAdapter = new UserAdapter(this, userList, new Userlistener()
+                            {
+                                @Override
+                                public void onUserClicked(User user)
+                                {
+                                    SharedPreferences preferences=getSharedPreferences("",MODE_PRIVATE);
+                                    SharedPreferences.Editor editor=preferences.edit();
+                                    editor.putString("")
+                                }
+                            });*/
 
                         }else
                         {
@@ -125,6 +137,15 @@ public class User_Activity extends AppCompatActivity
         }else
         {
             binding.myProgressBar.setVisibility(View.GONE);
+
         }
+
+    }
+
+    @Override
+    public void onUserClicked(User user)
+    {
+
+
     }
 }

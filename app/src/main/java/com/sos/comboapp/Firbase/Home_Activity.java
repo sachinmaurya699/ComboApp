@@ -24,7 +24,6 @@ import java.util.HashMap;
 
 public class Home_Activity extends AppCompatActivity
 {
-
     private ActivityHome2Binding homeBinding;
     private PreferenceManager manager;
 

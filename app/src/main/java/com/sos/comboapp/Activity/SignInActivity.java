@@ -18,13 +18,15 @@ import com.sos.comboapp.databinding.ActivitySignInBinding;
 
 import java.util.HashMap;
 
-public class SignInActivity extends AppCompatActivity {
+public class SignInActivity extends AppCompatActivity
+{
 
     private ActivitySignInBinding binding;
     private PreferenceManager manager;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         manager= new PreferenceManager(this);
         if(manager.getBoolean(Constant.Key_IS_SIGNED_IN))
@@ -138,7 +140,6 @@ public class SignInActivity extends AppCompatActivity {
 
                 }) ;
 
-
-
     }
+
 }

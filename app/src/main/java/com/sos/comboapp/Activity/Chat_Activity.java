@@ -32,6 +32,7 @@ import java.util.Objects;
 
 public class Chat_Activity extends AppCompatActivity
 {
+
     private ActivityChatBinding binding;
     private User recivier_user;
     private List<Chatmessage> chatmessage;

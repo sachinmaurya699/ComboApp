@@ -11,6 +11,24 @@
     <color name="theam_colour1">#2176FF</color>
     <color name="theam_colour">#2176FF</color>
 
+    <color name="orange">#F44336</color>
+    <color name="red">#EA1606</color>
+    <color name="yellow">#EAB71E</color>
+    <color name="green">#09F112</color>
+    <color name="voilet">#C80CE8</color>
+    <color name="skyblue">#0787ED</color>
+
+    //hd colour.
+    <color name="blue_hd">#FF0000</color>
+
+    //hd colour
+    <color name="color_hd_red">#FF0000</color>
+    <color name="color_hd_brown">#800000</color>
+    <color name="colour_hd_green">#00FF00</color>
+    <color name="colour_hd_blue">#0000FF</color>
+    <color name="colour_hd_voilet">#800080</color>
+    <color name="colour_hd_yellow">#FFA500</color>
+    <color name="colour_hd_pink">#FF00FF</color>
 
 
 

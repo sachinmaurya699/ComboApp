@@ -51,7 +51,6 @@ public class SignInActivity extends AppCompatActivity
         binding.button.setOnClickListener(view ->
         {
             //startActivity(new Intent(SignInActivity.this,SignUp_Activity.class));
-
             if(isValidSignInDetails())
             {
                 signIn();
@@ -92,6 +91,7 @@ public class SignInActivity extends AppCompatActivity
                         manager.putString(Constant.Key_USER_ID,documentSnapshot.getId());
                         manager.putString(Constant.Key_Name,documentSnapshot.getString(Constant.Key_Name));
                         manager.putString(Constant.Key_IMAGE,documentSnapshot.getString(Constant.Key_IMAGE));
+
                         Intent intent= new Intent(getApplicationContext(),Home_Activity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK| Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
